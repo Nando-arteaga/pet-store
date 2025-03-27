@@ -1,0 +1,195 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/windows
+# Editar en https://www.toptal.com/developers/gitignore?templates=windows
+
+### Ventanas ###
+# Archivos de caché de miniaturas de Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Archivo de volcado
+*.stackdump
+
+# Archivo de configuración de carpeta
+[Dd]esktop.ini
+
+# Papelera de reciclaje utilizada en recursos compartidos de archivos
+$RECYCLE.BIN/
+
+# Archivos del instalador de Windows
+*.taxi
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Atajos de Windows
+*.lnk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/windows
+
+# Creado por https://www.toptal.com/developers/gitignore/api/linux
+# Editar en https://www.toptal.com/developers/gitignore?templates=linux
+
+### Linux ###
+*~
+
+# archivos temporales que se pueden crear si un proceso aún tiene abierto el identificador de un archivo eliminado
+.fuse_hidden*
+
+# Preferencias del directorio de KDE
+.directorio
+
+# Carpeta de basura de Linux que puede aparecer en cualquier partición o disco
+.Basura-*
+
+Los archivos .nfs se crean cuando se elimina un archivo abierto pero aún se accede a él
+.nfs*
+
+# Fin de https://www.toptal.com/developers/gitignore/api/linux
+
+# Creado por https://www.toptal.com/developers/gitignore/api/node
+# Editar en https://www.toptal.com/developers/gitignore?templates=node
+
+### Nodo ###
+# Registros
+registros
+*.registro
+npm-debug.log*
+registro de depuración de hilo*
+error de hilo.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Informes de diagnóstico (https://nodejs.org/api/report.html)
+informe.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Datos de tiempo de ejecución
+pids
+*.pid
+*.semilla
+*.pid.lock
+
+# Directorio para bibliotecas instrumentadas generadas por jscoverage/JSCover
+lib-cov
+
+# Directorio de cobertura utilizado por herramientas como Estambul
+cobertura
+*.lcov
+
+# Cobertura de pruebas de Nueva York
+.nyc_output
+
+# Almacenamiento intermedio de Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.gruñido
+
+# Directorio de dependencias de Bower (https://bower.io/)
+componentes de bower
+
+# configuración de node-waf
+.bloqueo-wscript
+
+# Complementos binarios compilados (https://nodejs.org/api/addons.html)
+compilación/lanzamiento
+
+# Directorios de dependencia
+módulos_de_nodo/
+jspm_packages/
+
+# Directorio de dependencias de Snowpack (https://snowpack.dev/)
+módulos_web/
+
+# Caché de TypeScript
+*.tsbuildinfo
+
+# Directorio de caché npm opcional
+.npm
+
+# Caché eslint opcional
+.eslintcache
+
+# Caché de estilo opcional
+.stylelintcache
+
+# Caché de micropaquetes
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Historial de REPL opcional
+.historial_de_replicaciones_de_nodo
+
+# Salida de 'npm pack'
+*.tgz
+
+# Archivo de integridad del hilo
+.integridad del hilo
+
+# archivos de variables de entorno dotenv
+.env
+.env.desarrollo.local
+.env.test.local
+.env.producción.local
+.env.local
+
+# caché del paquete de paquetes (https://parceljs.org/)
+.cache
+.paquete-caché
+
+# Salida de la compilación de Next.js
+.próximo
+afuera
+
+# Nuxt.js compilación / generación de salida
+.nuxt
+dist
+
+# Archivos de Gatsby
+.cache/
+# Comenta en la línea pública si tu proyecto usa Gatsby y no Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# público
+
+# Salida de compilación de vuepress
+.vuepress/dist
+
+# Directorio temporal y de caché de vuepress v2.x
+.temperatura
+
+# Caché de Docusaurus y archivos generados
+.docusaurus
+
+# Directorios sin servidor
+.sin servidor/
+
+# Caché de FuseBox
+.caja de fusibles/
+
+# Archivos locales de DynamoDB
+.dynamodb/
+
+# Archivo de puerto TernJS
+.tern-port
+
+# Almacena versiones de VSCode utilizadas para probar extensiones de VSCode
+.vscode-test
+
+# hilo v2
+.yarn/cache
+.hilo/desenchufado
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+### Parche de nodo ###
+# Directorios webpack sin servidor
+.webpack/
+
+# Caché de estilo opcional
+
+# SvelteKit compilación / generación de salida
+.svelte-kit
+
+# Fin de https://www.toptal.com/developers/gitignore/api/node
